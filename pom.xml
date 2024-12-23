@@ -19,7 +19,10 @@
             <artifactId>reactor-core</artifactId>
             <version>3.5.10</version> <!-- 使用最新版本 -->
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
